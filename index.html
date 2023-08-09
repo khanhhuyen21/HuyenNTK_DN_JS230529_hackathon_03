@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Note Keeper App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>Note App</header>
+      <form id="noteForm">
+        <label>Title</label>
+        <input type="text" id="createNote" placeholder="Enter your notes." />
+        <br />
+        <i id="warning">Title has not been entered!</i> <br />
+        <button type="submit">Add+</button>
+      </form>
+      <div id="noteList"></div>
+    </div>
+  </body>
+  <script type="module" src="app.js"></script>
+</html>

@@ -1,0 +1,46 @@
+header {
+  font-size: 50px;
+  padding: 20px;
+  background-color: #f3a683;
+  color: #fff;
+}
+label {
+  font-size: larger;
+  font-weight: 500;
+}
+form {
+  width: 400px;
+  margin: auto;
+  margin-top: 20px;
+  border: 1px solid;
+  padding: 20px;
+  background-color: #f0ebeb;
+}
+form input {
+  width: 100%;
+  padding: 10px 5px;
+}
+
+form i {
+  color: #ff6363;
+  display: none;
+}
+#noteList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.list {
+  margin: 10px;
+  border: 1px solid;
+  width: 200px;
+  text-align: center;
+  padding: 20px;
+  background-color: #f0ebeb;
+}
+button {
+  height: 30px;
+  background-color: #f3a683;
+  border: none;
+  border-radius: 5px;
+}
